@@ -10,5 +10,5 @@ if salario > 1250:
 else:
     aumento = 0.15*salario
     final = 1.15*salario
-print('O aumento será de {:.2f} e o salário final será de {:.2f}'.format(
+print('O aumento será de \033[32;44m{:.2f}\033[m e o salário final será de {:.2f}'.format(
     aumento, final))
